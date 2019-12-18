@@ -1,0 +1,15 @@
+@import './_variables.scss';
+@import './_header.scss';
+
+.contact{ 
+    // @include flexCenter(row);
+    // button {
+    // background: $primaryBtn; 
+    // // Append to end
+    // &::after{
+    //     content: 'Hello'
+    // }
+    // }
+    @extend header;
+    width: 100% - 20%;
+}
